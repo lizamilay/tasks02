@@ -1,12 +1,12 @@
 import java.util.Random;
-//7. Даны действительные числа а1 ,а2 ,..., аn . Поменять местами наибольший и наименьший элементы.
+//7. Р”Р°РЅС‹ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅС‹Рµ С‡РёСЃР»Р° Р°1 ,Р°2 ,..., Р°n . РџРѕРјРµРЅСЏС‚СЊ РјРµСЃС‚Р°РјРё РЅР°РёР±РѕР»СЊС€РёР№ Рё РЅР°РёРјРµРЅСЊС€РёР№ СЌР»РµРјРµРЅС‚С‹.
 public class Task7 {
 	public static void main(String[] args) {
 		int n = 10;
 		double [] arr = new double [n];
 		
 		init(arr);
-		System.out.println("Исходный массив:");
+		System.out.println("РСЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ:");
 		print(arr);
 		
 		double max = arr[0];
@@ -31,7 +31,7 @@ public class Task7 {
 		
 		System.out.println("max = " + max);
 		System.out.println("min = " + min);
-		System.out.println("Изменённый массив:");
+		System.out.println("РР·РјРµРЅС‘РЅРЅС‹Р№ РјР°СЃСЃРёРІ:");
 		print(arr);
 		return;
 	}
@@ -50,3 +50,4 @@ public class Task7 {
 	    	System.out.println();
 	    }
 }
+
