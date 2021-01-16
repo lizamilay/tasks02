@@ -1,12 +1,12 @@
 import java.util.Random;
-//В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К.
+//1. Р’ РјР°СЃСЃРёРІ A [N] Р·Р°РЅРµСЃРµРЅС‹ РЅР°С‚СѓСЂР°Р»СЊРЅС‹Рµ С‡РёСЃР»Р°. РќР°Р№С‚Рё СЃСѓРјРјСѓ С‚РµС… СЌР»РµРјРµРЅС‚РѕРІ, РєРѕС‚РѕСЂС‹Рµ РєСЂР°С‚РЅС‹ РґР°РЅРЅРѕРјСѓ Рљ
 public class Task1 {
 	public static void main(String[] args) {
 		int n = 10;
 		int [] arr = new int [n];
 		
 		init(arr);
-		System.out.println("Исходный массив:");
+		System.out.println("Г€Г±ГµГ®Г¤Г­Г»Г© Г¬Г Г±Г±ГЁГў:");
 		print(arr);
 		
 		int K = 5;
@@ -14,11 +14,11 @@ public class Task1 {
 		
 		for(int i = 0; i < arr.length; i++) {
 			if( arr[i] % K == 0) {
-				System.out.println(arr[i] + " кратно " + K);
+				System.out.println(arr[i] + " ГЄГ°Г ГІГ­Г® " + K);
 				sum = sum + arr[i];
 			}
 		}
-		System.out.print("Сумма всех элемнтов массива, кратных " + K + " = " + sum);
+		System.out.print("Г‘ГіГ¬Г¬Г  ГўГ±ГҐГµ ГЅГ«ГҐГ¬Г­ГІГ®Гў Г¬Г Г±Г±ГЁГўГ , ГЄГ°Г ГІГ­Г»Гµ " + K + " = " + sum);
 		return;
 	}
     public static void init(int[] mas) {
