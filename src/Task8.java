@@ -1,15 +1,15 @@
 import java.util.Random;
-//8. Даны целые числа а1 ,а2 ,..., аn . Вывести на печать только те числа, для которых аi > i.
+//8. Р”Р°РЅС‹ С†РµР»С‹Рµ С‡РёСЃР»Р° Р°1 ,Р°2 ,..., Р°n . Р’С‹РІРµСЃС‚Рё РЅР° РїРµС‡Р°С‚СЊ С‚РѕР»СЊРєРѕ С‚Рµ С‡РёСЃР»Р°, РґР»СЏ РєРѕС‚РѕСЂС‹С… Р°i > i.
 public class Task8 {
 	public static void main(String[] args) {
 		int n = 10;
 		int [] arr = new int [n];
 		
 		init(arr);
-		System.out.println("Исходный массив:");
+		System.out.println("РСЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ:");
 		print(arr);
 		
-		System.out.println("Новый массив: ");
+		System.out.println("РќРѕРІС‹Р№ РјР°СЃСЃРёРІ: ");
 		printTask(arr);
 		
 		return;
