@@ -1,5 +1,5 @@
 import java.util.Random;
-//5. Дана последовательность чисел а1 ,а2 ,..., ап. Указать наименьшую длину числовой оси, содержащую все эти числа.
+//5. Р”Р°РЅР° РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ С‡РёСЃРµР» Р°1 ,Р°2 ,..., Р°Рї. РЈРєР°Р·Р°С‚СЊ РЅР°РёРјРµРЅСЊС€СѓСЋ РґР»РёРЅСѓ С‡РёСЃР»РѕРІРѕР№ РѕСЃРё, СЃРѕРґРµСЂР¶Р°С‰СѓСЋ РІСЃРµ СЌС‚Рё С‡РёСЃР»Р°.
 
 public class Task5 {
 	public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class Task5 {
 		int [] arr = new int [n];
 		
 		init(arr);
-		System.out.println("Исходный массив:");
+		System.out.println("РСЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ:");
 		print(arr);
 		
 		int max = arr[0];
@@ -21,7 +21,7 @@ public class Task5 {
 				min = arr[i];
 			}
 		}
-		System.out.print("Длина числовой оси = " + (max-min));
+		System.out.print("Р”Р»РёРЅР° С‡РёСЃР»РѕРІРѕР№ РѕСЃРё = " + (max-min));
 		return;
 	}
     public static void init(int[] mas) {
