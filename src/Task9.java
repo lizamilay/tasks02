@@ -1,6 +1,6 @@
 import java.util.Random;
-//9. Дан массив действительных чисел, размерность которого N. Подсчитать, сколько в нем отрицательных,
-//положительных и нулевых элементов.
+//9. Р”Р°РЅ РјР°СЃСЃРёРІ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅС‹С… С‡РёСЃРµР», СЂР°Р·РјРµСЂРЅРѕСЃС‚СЊ РєРѕС‚РѕСЂРѕРіРѕ N. РџРѕРґСЃС‡РёС‚Р°С‚СЊ, СЃРєРѕР»СЊРєРѕ РІ РЅРµРј РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹С…,
+//РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹С… Рё РЅСѓР»РµРІС‹С… СЌР»РµРјРµРЅС‚РѕРІ.
 
 public class Task9 {
 	public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Task9 {
 		double [] arr = new double [n];
 		
 		init(arr);
-		System.out.println("Исходный массив:");
+		System.out.println("РСЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ:");
 		print(arr);
 		
 		int count_neg = 0;
@@ -32,9 +32,9 @@ public class Task9 {
 			}
 		}
 		
-		System.out.println("Количество отрицательных = " + count_neg );
-		System.out.println("Количество положительных = " + count_pos );
-		System.out.println("Количество нулей = " + count_zer);
+		System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹С… = " + count_neg );
+		System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹С… = " + count_pos );
+		System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РЅСѓР»РµР№ = " + count_zer);
 		return;
 	}
 	 public static void init(double[] mas) {
