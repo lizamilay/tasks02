@@ -1,12 +1,12 @@
 import java.util.Random;
-
+//10. Даны действительные числа 𝑎1, 𝑎2 , … , 𝑎2𝑛. Найти max( , , , ) a1 + a2n a2 + a2n−1  an + an+1
 public class Task10 {
 	public static void main(String[] args) {
 		int n = 3;
 		double [] arr = new double [2*n];
 		
 		init(arr);
-		System.out.println("�������� ������:");
+		System.out.println("Èñõîäíûé ìàññèâ:");
 		print(arr);
 		
 		double max = arr[0] + arr[2*n-1];
