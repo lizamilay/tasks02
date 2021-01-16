@@ -6,7 +6,7 @@ public class Task10 {
 		double [] arr = new double [2*n];
 		
 		init(arr);
-		System.out.println("Èñõîäíûé ìàññèâ:");
+		System.out.println("Исходный массив:");
 		print(arr);
 		
 		double max = arr[0] + arr[2*n-1];
