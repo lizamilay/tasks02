@@ -1,22 +1,22 @@
 import java.util.Random;
-//3. Дана последовательность действительных чисел а1 а2 ,..., аn . Выяснить, будет ли она возрастающей.
+//3. Р”Р°РЅР° РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅС‹С… С‡РёСЃРµР» Р°1 Р°2 ,..., Р°n . Р’С‹СЏСЃРЅРёС‚СЊ, Р±СѓРґРµС‚ Р»Рё РѕРЅР° РІРѕР·СЂР°СЃС‚Р°СЋС‰РµР№.
 public class Task3 {
 	public static void main(String[] args) {
 		int n = 3;
 		double [] arr = new double [n];
 		
 		init(arr);
-		System.out.println("Исходный массив:");
+		System.out.println("РСЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ:");
 		print(arr);
 		
 		
 		for(int i = 0; i < arr.length - 1; i++) {
 			if( arr[i] >= arr[i+1]) {
-				System.out.println("Последовательность не возрастающая!");	
+				System.out.println("РџРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ РЅРµ РІРѕР·СЂР°СЃС‚Р°СЋС‰Р°СЏ!");	
 				return;
 			}
 		}
-		System.out.println("Последовательность возрастающая!");	
+		System.out.println("РџРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ РІРѕР·СЂР°СЃС‚Р°СЋС‰Р°СЏ!");	
 		return;
 	}
     public static void init(double[] mas) {
