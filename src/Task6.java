@@ -1,6 +1,6 @@
 import java.util.Random;
-//6. Дана последовательность действительных чисел а1 ,а2 ,..., ап. Заменить все ее члены, большие данного Z, этим числом.
-//Подсчитать количество замен.
+//6. Р”Р°РЅР° РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅС‹С… С‡РёСЃРµР» Р°1 ,Р°2 ,..., Р°Рї. Р—Р°РјРµРЅРёС‚СЊ РІСЃРµ РµРµ С‡Р»РµРЅС‹, Р±РѕР»СЊС€РёРµ РґР°РЅРЅРѕРіРѕ Z, СЌС‚РёРј С‡РёСЃР»РѕРј.
+//РџРѕРґСЃС‡РёС‚Р°С‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ Р·Р°РјРµРЅ.
 
 public class Task6 {
 	public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Task6 {
 		double [] arr = new double [n];
 		
 		init(arr);
-		System.out.println("Исходный массив:");
+		System.out.println("РСЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ:");
 		print(arr);
 		
 		double Z = 500.0;
@@ -20,9 +20,9 @@ public class Task6 {
 				count++;
 			}
 		}
-		System.out.println("Изменённый массив:");
+		System.out.println("РР·РјРµРЅС‘РЅРЅС‹Р№ РјР°СЃСЃРёРІ:");
 		print(arr);
-		System.out.println("Количество замен = " + count);
+		System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ Р·Р°РјРµРЅ = " + count);
 		return;
 	}
     public static void init(double[] mas) {
