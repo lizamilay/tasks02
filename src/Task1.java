@@ -1,12 +1,12 @@
 import java.util.Random;
-//1. В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К
+//В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К.
 public class Task1 {
 	public static void main(String[] args) {
 		int n = 10;
 		int [] arr = new int [n];
 		
 		init(arr);
-		System.out.println("Èñõîäíûé ìàññèâ:");
+		System.out.println("Исходный массив:");
 		print(arr);
 		
 		int K = 5;
@@ -14,11 +14,11 @@ public class Task1 {
 		
 		for(int i = 0; i < arr.length; i++) {
 			if( arr[i] % K == 0) {
-				System.out.println(arr[i] + " êðàòíî " + K);
+				System.out.println(arr[i] + " кратно " + K);
 				sum = sum + arr[i];
 			}
 		}
-		System.out.print("Ñóììà âñåõ ýëåìíòîâ ìàññèâà, êðàòíûõ " + K + " = " + sum);
+		System.out.print("Сумма всех элемнтов массива, кратных " + K + " = " + sum);
 		return;
 	}
     public static void init(int[] mas) {
@@ -36,3 +36,4 @@ public class Task1 {
     	System.out.println();
     }
 }
+
